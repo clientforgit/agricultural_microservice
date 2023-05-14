@@ -21,7 +21,7 @@ CREATE TABLE field_properties(
                                  seven text not null
 );
 
-LOAD DATA LOCAL INFILE '/home/client/PhpstormProjects/agricultural_service/АгроекологіяПоля.csv'
+LOAD DATA LOCAL INFILE '<your path>АгроекологіяПоля.csv'
     INTO TABLE field_properties
     FIELDS TERMINATED BY ';'
     IGNORE 1 ROWS;
